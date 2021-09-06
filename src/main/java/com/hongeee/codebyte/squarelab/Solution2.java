@@ -14,7 +14,6 @@ public class Solution2 {
             Map<Character, Integer> map = new HashMap<>();
             char[] charArr = word.toCharArray();
             int max = -1;
-            char c = 0;
 
             for (char current : charArr) {
                 if (!map.containsKey(current)) {
